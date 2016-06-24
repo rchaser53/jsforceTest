@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "build": "node tasks\\build.js"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.10.4",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-class-properties": "6.10.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.10.3",
+    "babel-plugin-transform-runtime": "6.9.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "express": "^4.14.0",
+    "gulp-webserver": "^0.9.1",
+    "http": "0.0.0",
+    "jsforce": "^1.6.4",
+    "jsforce-ajax-proxy": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-fs": "^2.4.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "babel-runtime": "6.9.2"
+  }
+}
