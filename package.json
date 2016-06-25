@@ -16,6 +16,7 @@
     "browserify": "^13.0.1",
     "express": "^4.14.0",
     "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^3.2.0",
     "http": "0.0.0",
     "jsforce": "^1.6.4",
     "jsforce-ajax-proxy": "^1.0.0",
