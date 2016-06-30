@@ -6,7 +6,7 @@ const babelify = require('babelify');
 const fs = require("fs");
 const http = require('http');
 const express = require('express');
-const jsforceAjaxProxy = require('jsforce-ajax-proxy');
+const jsforceAjaxProxy = require('./proxy');
 
 const bundler = browserify({
                     entries: ["src/index.js"],
@@ -35,7 +35,7 @@ rebundle();
 
 const app = express();
 
-app.all('/proxy/?*', jsforceAjaxProxy({ enableCORS: true }));
+app.all('/proxy/?*', jsforceAjaxProxy({enableCORS: true}));
 
 app.get('/', function(req, res) {
   res.send('JSforce AJAX Proxy');
